@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Germania+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 html {
   font-size: 16px;
@@ -19,11 +19,11 @@ html {
 body {
   min-height: 100vh;
   color: black;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  font-family: "Times New Roman", Times, serif;
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+  font-family: "Germania One";
   -webkit-font-smoothing: antialiased;
-  background-image: url("engine.jpg");
+  background-size: contain;
 }
 
 input,
@@ -49,8 +49,8 @@ h3,
 h4,
 h5,
 h6 {
-  color: crimson;
-  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-family: "Germania One";
   text-wrap: balance;
 }
 
@@ -63,21 +63,21 @@ h1 {
 
 h2 {
   font-size: 1.77688rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 2rem;
   margin-bottom: 0.75rem;
 }
 
 h3 {
   font-size: 1.33313rem;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 2rem;
   margin-bottom: 0.75rem;
 }
 
 h4 {
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.25rem;
   text-transform: uppercase;
 }
@@ -87,24 +87,55 @@ p {
 }
 
 a {
-  color: white;
+  color: black;
   font-weight: 500;
 }
 
 button {
-  padding: 0.75rem 1rem;
-  background-color: yellow;
+  padding: 0.75rem 0.75rem;
+  background-color: gray;
   color: black;
-  border-radius: 0.75rem;
+  border-radius: 1rem;
   border: none;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .display-text {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Germania One";
   font-size: 3.1575rem;
   font-weight: 400;
   line-height: 3.5rem;
+}
+
+.germania-one-regular {
+  font-family: "Germania One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#main-nav ul {
+  list-style: none;
+}
+
+#hero {
+  background-image: url(../images/engine.jpg);
+  /* Image generated with Gemini */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 888px;
+}
+
+#page-header {
+  padding: 1rem 1.5rem;
+}
+
+#page-header .logo {
+  color: black;
+  font-family: "Germania One";
+  text-decoration: none;
+  font-size: 1.75rem;
 }
 
 section.page-section {
