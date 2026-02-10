@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>About Alexey Breussov</title>
+  </head>
+</html>
+<body>
+  <header>
+    <img src="./images/adeptus.svg" width="150px" height="150px" />
+    <!-- Image generated with Gemini -->
+    <nav>
+      <ul>
+        <li><a href="./">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact me</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Contact form</h1>
+    <p>
+      If you have any questions or would like to get in touch, please feel free
+      to reach out to me using the contact form below. I look forward to hearing
+      from you!
+    </p>
+    <body>
+      <form action="/submit-your-path" method="POST">
+        <div class="form-group">
+          <label for="firstName"><strong>First Name</strong></label>
+          <input
+            type="text"
+            id="firstName"
+            name="firstName"
+            required
+            placeholder="John"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="lastName"><strong>Last Name</strong></label>
+          <input
+            type="text"
+            id="lastName"
+            name="lastName"
+            required
+            placeholder="Smith"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email"><strong>Email Address</strong></label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="john.smith@gmail.com"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="message"><strong>Message me!</strong></label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Please leave your message here..."
+          ></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </body>
+  </main>
+</body>

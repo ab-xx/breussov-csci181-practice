@@ -3,7 +3,7 @@
 html {
   font-size: 16px;
   box-sizing: border-box;
-  background-color: peachpuff;
+  background-color: beige;
 }
 
 *,
@@ -52,6 +52,7 @@ h6 {
   color: black;
   font-family: "Germania One";
   text-wrap: balance;
+  padding-left: 0.75rem;
 }
 
 h1 {
@@ -84,6 +85,7 @@ h4 {
 
 p {
   text-wrap: pretty;
+  padding-left: 0.75rem;
 }
 
 a {
@@ -145,4 +147,42 @@ section.page-section {
   margin: 0 auto 1rem auto;
   width: 100%;
   max-width: 1920px;
+}
+
+.form-group {
+  margin-bottom: 0.5rem;
+  padding: 0.25rem;
+}
+label {
+  display: block;
+  margin-bottom: 0.33rem;
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  font-size: 1.15rem;
+  padding: 0.15rem;
+  padding-left: 0.5rem;
+  max-width: 300px;
+  border: 0.1 rem solid black;
+  border-radius: 0.25rem;
+}
+
+table {
+  width: 100%;
+  max-width: 1920px;
+  border-collapse: collapse;
+  margin-top: 0.7rem;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 1rem;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
 }
