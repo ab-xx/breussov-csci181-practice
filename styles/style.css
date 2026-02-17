@@ -130,7 +130,16 @@ button {
 }
 
 #page-header {
-  padding: 1rem 1.5rem;
+  padding: 0.25rem;
+  line-height: 1.5rem;
+  position: sticky;
+  top: 0;
+  background-color: beige;
+  z-index: 1000;
+}
+
+main {
+  padding-top: 2rem;
 }
 
 #page-header .logo {
@@ -185,4 +194,20 @@ td {
 
 th {
   font-weight: bold;
+}
+
+.project-card {
+  border: 1px solid black;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: beige;
+}
+
+.project-list {
+  list-style-type: none;
+  padding: 0;
+}
+#projects {
+  padding: 2rem;
 }
