@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width-device-width,initial-scale-1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./styles/style.css" />
     <title>Alexey Breussov Portfolio</title>
   </head>
@@ -67,6 +68,115 @@
       </section>
 
       <div style="height: 50px"></div>
+
+      <style>
+        .no-scrollbar::-webkit-scrollbar {
+          display: none;
+        }
+        .no-scrollbar {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+        }
+      </style>
+
+      <section id="testimonials" class="bg-beige py-16 px-8">
+        <h2 class="text-3xl font-bold text-center mb-12">Testimonials</h2>
+
+        <ul
+          class="flex flex-nowrap overflow-x-auto gap-8 no-scrollbar snap-x scroll-px-8"
+        >
+          <li class="flex-shrink-0 w-[350px] snap-center">
+            <figure
+              class="bg-yellow-200 p-8 rounded-2xl shadow-sm border border-black h-full flex flex-col justify-between"
+            >
+              <blockquote class="relative">
+                <span
+                  class="text-black text-6xl font-serif absolute -top-4 -left-2 select-none"
+                  >“</span
+                >
+                <p
+                  class="relative germania-one text-black leading-relaxed mb-8"
+                >
+                  Great job, quick and good service.
+                </p>
+              </blockquote>
+              <div class="flex items-center gap-4">
+                <img
+                  class="w-12 h-12 rounded-full object-cover"
+                  src="./images/john.jpg"
+                  alt="John Smith"
+                />
+                <div>
+                  <h4 class="font-bold text-black leading-tight">John Smith</h4>
+                  <p class="text-sm text-black">Verified Customer</p>
+                </div>
+              </div>
+            </figure>
+          </li>
+
+          <li class="flex-shrink-0 w-[350px] snap-center">
+            <figure
+              class="bg-yellow-200 p-8 rounded-2xl shadow-sm border border-black h-full flex flex-col justify-between"
+            >
+              <blockquote class="relative">
+                <span
+                  class="text-black text-6xl font-serif absolute -top-4 -left-2 select-none"
+                  >“</span
+                >
+                <p
+                  class="relative germania-one text-black leading-relaxed mb-8"
+                >
+                  I needed urgent repairs for my daily driver, Alexey was kind
+                  and helpful, and got the job done in a timely manner.
+                </p>
+              </blockquote>
+              <div class="flex items-center gap-4">
+                <img
+                  class="w-12 h-12 rounded-full object-cover"
+                  src="./images/karen.jpg"
+                  alt="Karen Good"
+                />
+                <div>
+                  <h4 class="font-bold text-black leading-tight">Karen Good</h4>
+                  <p class="text-sm text-black">Verified Customer</p>
+                </div>
+              </div>
+            </figure>
+          </li>
+
+          <li class="flex-shrink-0 w-[350px] snap-center">
+            <figure
+              class="bg-yellow-200 p-8 rounded-2xl shadow-sm border border-black h-full flex flex-col justify-between"
+            >
+              <blockquote class="relative">
+                <span
+                  class="text-black text-6xl font-serif absolute -top-4 -left-2 select-none"
+                  >“</span
+                >
+                <p
+                  class="relative germania-one text-black leading-relaxed mb-8"
+                >
+                  This handsome mechanic will not only fix your car but also
+                  give you good maintenance advice.
+                </p>
+              </blockquote>
+              <div class="flex items-center gap-4">
+                <img
+                  class="w-12 h-12 rounded-full object-cover"
+                  src="./images/ashley.jpg"
+                  alt="Ashley Brown"
+                />
+                <div>
+                  <h4 class="font-bold text-black leading-tight">
+                    Ashley Brown
+                  </h4>
+                  <p class="text-sm text-black">Verified Customer</p>
+                </div>
+              </div>
+            </figure>
+          </li>
+        </ul>
+      </section>
     </main>
   </body>
 </html>
