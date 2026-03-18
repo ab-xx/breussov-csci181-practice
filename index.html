@@ -8,25 +8,29 @@
     <title>Alexey Breussov Portfolio</title>
   </head>
   <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <header id="page-header">
       <a href="./" class="logo">
         <img src="./images/adeptus.svg" width="150px" height="150px" />
         <!-- Image generated with Gemini -->
         <span>Alexey Breussov</span>
       </a>
+      <nav aria-label="Primary navigation">
       <nav id="main-nav">
         <ul>
-          <li><a href="./">Home</a></li>
+           <li><a href="./" aria-current="page">Home</a></li>
           <li><a href="resume.html">Resume</a></li>
           <li><a href="contact.html">Contact me</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section id="hero">
-        <p class="display-text">Diesel Technician | Automotive Repair</p>
-        <button>View my projects</button>
-      </section>
+
+      <main id="main-content">
+        <section id="hero">
+          <p class="display-text">Diesel Technician | Automotive Repair</p>
+          <button>View my projects</button>
+        </section>
+      </main>
 
       <section id="projects">
         <h2>Projects</h2>
